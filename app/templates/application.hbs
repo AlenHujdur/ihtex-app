@@ -1,5 +1,28 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+  <div class="row">
+    <div class="col-sm">
+        {{#link-to 'etisons'}}
+                Etisoni
+        {{/link-to}}
+    </div>
+    <div class="col-sm">
+        {{#link-to 'shops'}}
+            Prodavnice
+        {{/link-to}}
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
 
+</nav>
 {{outlet}}
+<footer class="footer">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+</footer>
