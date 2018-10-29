@@ -1,7 +1,7 @@
-<h2>List of latest Etisons</h2>
-
+<h2>Etisons for you:</h2>
 <ul>
-    {{#each model as |e|}}
-        <li>{{e.nameEtison}} | <image>{{e.image}}</image></li>
+    {{#each model as |etisons|}}
+        <li>Name:{{etisons.etisonName}}, id:{{etisons.id}}</li>
     {{/each}}
 </ul>
+Thank you! 
