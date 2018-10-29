@@ -1,0 +1,14 @@
+{"shops":
+[{
+    "shopName" : "N0000",
+    "id":1
+},
+{
+    "shopName" : "N1234",
+    "id":2
+},
+{
+    "shopName" : "N5678",
+    "id":3
+}]
+}

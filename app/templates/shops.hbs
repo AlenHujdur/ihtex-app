@@ -1,0 +1,9 @@
+<h2>Shops near you:</h2>
+<ul>
+    {{#each model as |shops|}}
+        <li>Name:{{shops.shopName}}, id:{{shops.id}}</li>
+    {{/each}}
+</ul>
+Thank you! 
+{{input type="checkbox" name="isAdmin" checked=isAdmin}}
+<p>Total: {{sum 1 2 3}}</p>
