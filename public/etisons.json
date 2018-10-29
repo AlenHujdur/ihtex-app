@@ -1,4 +1,5 @@
-{"etisons":
+{
+    "etisons":
     [{
         "etisonName" : "Etison-0000",
         "id":1,
@@ -14,4 +15,4 @@
         "id":3,
         "image":"https://s8.pik.ba/galerija/2018-04/11/01/slika-1662164-5acdedbf387a6-velika.jpg"
     }]
-    }
+}
