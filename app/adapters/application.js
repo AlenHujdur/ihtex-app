@@ -7,6 +7,6 @@ export default DS.RESTAdapter.extend({
         else if(modelName == 'etison')
             return 'etisons.json';
         else
-            return;
+            return 'No data!';
     }
 });
