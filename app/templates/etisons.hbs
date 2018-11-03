@@ -1,7 +1,12 @@
-<h2>Etisons for you:</h2>
+<h2>The best etisons at the moment:</h2>
 <ul>
+<<<<<<< HEAD
     {{#each model as |etison|}}
         <li>Name:{{console.log(etison.etisonName)}}</li>
+=======
+    {{#each model as |etisons|}}
+        <li>Name:{{etisons.etisonName}}, id:{{etisons.id}}</li>
+        <img src="{{etisons.image}}" height="300px" width="350">
+>>>>>>> 1fc69e4288cce15d5d78733508bec68cb2df77b9
     {{/each}}
 </ul>
-Thank you! 
