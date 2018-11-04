@@ -1,5 +1,5 @@
 import DS from 'ember-data';
-import EmberObject from '@ember/object';
+//import EmberObject from '@ember/object';
 
 export default DS.Model.extend({
   //etisons: DS.hasMany('shop'),
@@ -7,14 +7,14 @@ export default DS.Model.extend({
   shopName: DS.attr('string')
 });
 
-const Shop = EmberObject.extend({
-  helloCustomers(){
-    console.log(`Hello dear customer! Greetings from shop: ${this.get('number')}`);
-  }
-})
+// const Shop = EmberObject.extend({
+//   helloCustomers(){
+//     console.log(`Hello dear customer! Greetings from shop: ${this.get('number')}`);
+//   }
+// })
 
-let visoko = Shop.create({
-  number: 137
-});
+// let visoko = Shop.create({
+//   number: 137
+// });
 
-visoko.helloCustomers();
+// visoko.helloCustomers();
