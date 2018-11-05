@@ -1,13 +1,19 @@
 {"shops":
 [{
+    "City" : "Visoko",
+    "Address": "Rosulje",
     "shopName" : "N0000",
     "id":1
 },
 {
+    "City" : "Visoko",
+    "Address": "Moštre",
     "shopName" : "N1234",
     "id":2
 },
 {
+    "City" : "Zenica",
+    "Address": "BB",
     "shopName" : "N5678",
     "id":3
 }]

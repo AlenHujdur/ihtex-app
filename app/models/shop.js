@@ -4,6 +4,8 @@ import DS from 'ember-data';
 export default DS.Model.extend({
   //etisons: DS.hasMany('shop'),
   //house: DS.belongsTo('location'),
+  City: DS.attr('string'),
+  Address: DS.attr('string'),
   shopName: DS.attr('string')
 });
 

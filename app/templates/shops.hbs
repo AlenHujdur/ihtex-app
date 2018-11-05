@@ -4,6 +4,16 @@
 <ul>
     {{#each model as |shops|}}
         <li>Name:{{shops.shopName}}, id:{{shops.id}}</li>
+        {{#if isExpanded}}
+        <button {{action "toggleBody"}}>Hide Body</button>
+        <div class="body">
+            City: {{shops.City}}<br>
+            Address: {{shops.Address}}<br>
+            Distance: {{action "sum" model=shop}} km.<br>
+        </div>
+        {{else}}
+        <button {{action "toggleBody"}}>Show Body</button>
+        {{/if}}
     {{/each}}
 </ul>
 Thank you! 
