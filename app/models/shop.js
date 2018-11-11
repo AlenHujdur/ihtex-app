@@ -8,7 +8,6 @@ export default DS.Model.extend({
   Address: DS.attr('string'),
   shopName: DS.attr('string')
 });
-
 // const Shop = EmberObject.extend({
 //   helloCustomers(){
 //     console.log(`Hello dear customer! Greetings from shop: ${this.get('number')}`);
