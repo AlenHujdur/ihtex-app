@@ -1,12 +1,12 @@
 <li>
   Id: {{etison.id}}<br>
   Etison: <strong>{{etison.etisonName}}</strong><br>
-  {{!-- <a onclick={{action "toggleImageSize"}} role="button" class="image {{if isWide "wide"}}">
-    <img src={{etison.image}} alt="">
-    <small>View Larger</small>
-  </a> --}}
-  <a onclick={{action "toggleImageSize"}} role="button">
+  <a onclick={{action "toggleImageSize"}} role="button" class="image {{if isWide "wide"}}">
     <img src={{etison.image}} alt="" height="320" width="250"><br/>
     <small>View Larger</small>
   </a>
+  {{!-- <a onclick={{action "toggleImageSize"}} role="button">
+    <img src={{etison.image}} alt="" height="320" width="250"><br/>
+    <small>View Larger</small>
+  </a> --}}
 </li>
