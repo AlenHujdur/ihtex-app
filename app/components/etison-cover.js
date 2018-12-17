@@ -5,7 +5,7 @@ export default Component.extend({
   actions: {
     toggleImageSize() {
       this.toggleProperty('isWide');
-      //console.log('test 123')
+      console.log('test 123')
     }
   }
 });

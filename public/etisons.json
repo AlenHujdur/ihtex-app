@@ -1,17 +1,17 @@
 {"etisons":
 [{
     "etisonName" : "Etison0000",
-    "image":"https://s8.pik.ba/galerija/2018-07/01/02/slika-1662164-5b38c68240297-velika.jpg",        
+    "image":"Capture.PNG",        
     "id":1
 },
 {
     "etisonName" : "Etison1234",
-    "image":"https://s7.pik.ba/galerija/2017-03/13/02/slika-1662164-58c6a5b9b4ada-velika.jpg",
+    "image":"Capture1.PNG",
     "id":2
 },
 {
     "etisonName" : "Etison5678",
-    "image":"https://s8.pik.ba/galerija/2018-04/11/01/slika-1662164-5acdedbf387a6-velika.jpg",
+    "image":"IMG_20160601_182727.jpg",
     "id":3
 }]
 }
